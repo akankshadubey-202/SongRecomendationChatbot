@@ -1,0 +1,551 @@
+{
+    "intents": [
+
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Ted, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Karan Malik."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                
+                "you are dumb",
+                
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "karan",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is karan",
+                "karan malik"
+            ],
+            "responses": [
+                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact karan",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Karan very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2020, if that's what you are asking!"
+            ]
+        },
+        {
+      "tag": "rock",
+      "patterns":[
+      "I want to listen some rocking songs","Suggest some rocking songs","list down all the rocking songs of famous artisit","I want to hear some cool rocking musics suggest some of them ","Suggest some more"
+    ,"What are some good rock songs?", "Recommend me some rock music.", "Any suggestions for rock songs?", "I want to listen to rock music.", "Give me some rock song recommendations."],
+      "responses": [
+        "1. You might like 'Stairway to Heaven' by Led Zeppelin. [Listen](https://www.youtube.com/watch?v=IS6nPoIABaQ)\n 2.Have you listened to 'Bohemian Rhapsody' by Queen? [Listen](https://www.youtube.com/watch?v=fJ9rUzIMcZQ)\n3.Check out 'Hotel California' by Eagles. [Listen](https://www.youtube.com/watch?v=EqPtz5qN7HM)",
+        "You might like 'Stairway to Heaven' by Led Zeppelin. [Listen](https://www.youtube.com/watch?v=IS6nPoIABaQ)",
+    "Have you listened to 'Bohemian Rhapsody' by Queen? [Listen](https://www.youtube.com/watch?v=fJ9rUzIMcZQ)",
+    "Check out 'Hotel California' by Eagles. [Listen](https://www.youtube.com/watch?v=EqPtz5qN7HM)",
+    "Try 'Believer' by Imagine Dragons. [Listen](https://www.youtube.com/watch?v=7wtfhZwyrcc)",
+    "Listen to 'Radioactive' by Imagine Dragons. [Listen](https://www.youtube.com/watch?v=ktvTqknDobU)",
+    "Explore 'The Sound of Silence' by Disturbed. [Listen](https://www.youtube.com/watch?v=u9Dg-g7t2l4)",
+    "Give 'Thunderstruck' by AC/DC a try. [Listen](https://www.youtube.com/watch?v=v2AC41dglnM)",
+    "You might like 'Heathens' by Twenty One Pilots. [Listen](https://www.youtube.com/watch?v=UprcpdwuwCg)",
+    "Check out 'Highway Tune' by Greta Van Fleet. [Listen](https://www.youtube.com/watch?v=aJg4OJxp-co)",
+    "Try 'Bad Guy' by Billie Eilish (feat. Justin Bieber). [Listen](https://www.youtube.com/watch?v=2pjlwGcFz70)"
+      ]
+    },
+    {
+    "tag" :"welcome",
+    "patterns": ["Hello", "Hi", "Hey", "Hola", "Greetings","whatsup","Hii there! "],
+    "responses": [
+      "Hello! I am MusicBuddy, your personal music recommendation assistant. How can I help you today?",
+      "Hi there! I'm MusicBuddy, here to assist you with music recommendations. What would you like to listen to?",
+      "Hey! I am MusicBuddy, ready to help you discover great music. How may I assist you?",
+      "Hola! I'm MusicBuddy, your music companion. How can I make your day musical?",
+      "Greetings! I am MusicBuddy, your go-to music recommendation bot. What kind of music are you in the mood for?"
+    ]
+  },
+  {"tag": "pop",
+  "patterns": ["Can you recommend some popular pop songs?", "I need suggestions for pop music.", "What are some top pop songs?", "Give me popular pop song recommendations.", "Recommend me catchy pop songs."],
+  
+  "responses": [
+    "You should listen to 'Shape of You' by Ed Sheeran. [Listen](https://www.youtube.com/watch?v=JGwWNGJdvx8)",
+    "Try 'Bad Guy' by Billie Eilish. [Listen](https://www.youtube.com/watch?v=DyDfgMOUjCI)",
+    "Have you heard 'Happy' by Pharrell Williams? [Listen](https://www.youtube.com/watch?v=y6Sxv-sUYtM)",
+    "Check out 'Uptown Funk' by Mark Ronson ft. Bruno Mars. [Listen](https://www.youtube.com/watch?v=OPf0YbXqDm0)",
+    "Give 'Dance Monkey' by Tones and I a try. [Listen](https://www.youtube.com/watch?v=q0hyYWKXF0Q)",
+    "You might like 'Havana' by Camila Cabello ft. Young Thug. [Listen](https://www.youtube.com/watch?v=BQ0mxQXmLsk)",
+    "Listen to 'Can't Stop the Feeling!' by Justin Timberlake. [Listen](https://www.youtube.com/watch?v=ru0K8uYEZWw)",
+    "Check out 'Royals' by Lorde. [Listen](https://www.youtube.com/watch?v=nlcIKh6sBtc)",
+    "Try 'Closer' by The Chainsmokers ft. Halsey. [Listen](https://www.youtube.com/watch?v=PT2_F-1esPk)",
+    "Have you heard 'Love Yourself' by Justin Bieber? [Listen](https://www.youtube.com/watch?v=oyEuk8j8imI)"
+  ]
+},
+{ "tag": "90s",
+  "patterns": ["Recommend me some Hindi songs from the 90s.", "Which Hindi songs from the 90s do you suggest?", "Any good Hindi 90s music recommendations?", "I want to listen to Hindi songs from the 90s.", "Give me popular Hindi 90s song recommendations."],
+ 
+  "responses": [
+    "Enjoy 'Pehla Nasha' from the movie Jo Jeeta Wohi Sikandar. [Listen](https://www.youtube.com/watch?v=gQIjVmv6IFE)",
+    "Check out 'Tu Cheez Badi Hai Mast Mast' from the movie Mohra. [Listen](https://www.youtube.com/watch?v=zQX2q6WCrbE)",
+    "Listen to 'Papa Kehte Hain' from the movie Qayamat Se Qayamat Tak. [Listen](https://www.youtube.com/watch?v=HZEY2bBZuDA)",
+    "Give 'Dil To Pagal Hai' from the movie Dil To Pagal Hai a try. [Listen](https://www.youtube.com/watch?v=90W0K6iPijQ)",
+    "You might like 'Dil Se Re' from the movie Dil Se. [Listen](https://www.youtube.com/watch?v=2YKaa8cDmiM)",
+    "Check out 'Pardesi Pardesi' from the movie Raja Hindustani. [Listen](https://www.youtube.com/watch?v=6a3lFafkb6A)",
+    "Listen to 'Kuch Kuch Hota Hai' from the movie Kuch Kuch Hota Hai. [Listen](https://www.youtube.com/watch?v=du07il3Ixlk)",
+    "Give 'Tujhe Dekha Toh' from the movie Dilwale Dulhania Le Jayenge a try. [Listen](https://www.youtube.com/watch?v=tJwm3lq5w8Q)",
+    "You might like 'Ek Ladki Ko Dekha' from the movie 1942: A Love Story. [Listen](https://www.youtube.com/watch?v=NHMDC9E61Nk)",
+    "Check out 'Kabhi Kabhie Mere Dil Mein' from the movie Kabhi Kabhie. [Listen](https://www.youtube.com/watch?v=LnV1hqYWSys)"
+  ]
+},
+{"tag": "party",
+  "patterns": ["Suggest some Hindi party songs.", "Which Hindi songs are good for parties?", "I need recommendations for Hindi party music.", "Give me popular Hindi party song suggestions.", "Recommend me upbeat Hindi songs for parties."],
+  
+  "responses": [
+    "You should check out 'Swag Se Swagat' from the movie Tiger Zinda Hai. [Listen](https://www.youtube.com/watch?v=xmU0s2QtaEY)",
+    "Try 'Kala Chashma' from the movie Baar Baar Dekho. [Listen](https://www.youtube.com/watch?v=k4yXQkG2s1E)",
+    "Have you heard 'Dheeme Dheeme' by Tony Kakkar ft. Neha Sharma? [Listen](https://www.youtube.com/watch?v=9AShDn7JEx8)",
+    "Check out 'Aankh Marey' from the movie Simmba. [Listen](https://www.youtube.com/watch?v=_KhQT-LGb-4)",
+    "Give 'Bom Diggy Diggy' from the movie Sonu Ke Titu Ki Sweety a try. [Listen](https://www.youtube.com/watch?v=x8F5dz8kv1w)",
+    "You might like 'Badtameez Dil' from the movie Yeh Jawaani Hai Deewani. [Listen](https://www.youtube.com/watch?v=UNPjVXkOu8U)",
+    "Listen to 'Tamma Tamma Again' from the movie Badrinath Ki Dulhania. [Listen](https://www.youtube.com/watch?v=dpMllfqfP-0)",
+    "Check out 'Lungi Dance' from the movie Chennai Express. [Listen](https://www.youtube.com/watch?v=DwyMB19qVh0)",
+    "Try 'Gallan Goodiyaan' from the movie Dil Dhadakne Do. [Listen](https://www.youtube.com/watch?v=MTfPkyJn5E8)",
+    "Have you heard 'Sadi Gali' from the movie Tanu Weds Manu? [Listen](https://www.youtube.com/watch?v=LQIEoL2w6pk)"
+  ]
+},
+{ "tag": "wedding",
+  "patterns": ["Suggest some Hindi wedding songs.", "Which Hindi songs are good for weddings?", "I need recommendations for Hindi wedding music.", "Give me popular Hindi wedding song suggestions.", "Recommend me lively Hindi songs for weddings."],
+ 
+  "responses": [
+    "You should check out 'London Thumakda' from the movie Queen. [Listen](https://www.youtube.com/watch?v=RQf9pFwEs9A)",
+    "Try 'Navrai Majhi' from the movie English Vinglish. [Listen](https://www.youtube.com/watch?v=eaSv4zE3h_I)",
+    "Have you heard 'Morni Banke' from the movie Badhaai Ho? [Listen](https://www.youtube.com/watch?v=0LTX-zsSXWQ)",
+    "Check out 'Gallan Kardi' from the movie Jawaani Jaaneman. [Listen](https://www.youtube.com/watch?v=rAZvdpYYiOo)",
+    "Give 'Mehndi Laga Ke Rakhna' from the movie Dilwale Dulhania Le Jayenge a try. [Listen](https://www.youtube.com/watch?v=YdLN0H9UwO4)",
+    "You might like 'Saat Samundar Paar' from the movie Vishwatma. [Listen](https://www.youtube.com/watch?v=kuhO6AJJk6w)",
+    "Listen to 'Sadi Gali' from the movie Tanu Weds Manu. [Listen](https://www.youtube.com/watch?v=6i6vsDv-YAI)",
+    "Check out 'Sajanji Ghar Aaye' from the movie Kuch Kuch Hota Hai. [Listen](https://www.youtube.com/watch?v=LCZ63cjSFno)",
+    "Try 'Bole Chudiyan' from the movie Kabhi Khushi Kabhie Gham. [Listen](https://www.youtube.com/watch?v=AEwRt6sy0DU)",
+    "Have you heard 'Le Jayenge Le Jayenge' from the movie Chor Machaye Shor? [Listen](https://www.youtube.com/watch?v=vtuSshOh0kI)"
+  ]
+},
+{ "tag": "hip-hop_hindi",
+  "patterns": ["Suggest some Hindi hip-hop songs.", "Which Hindi songs have a hip-hop vibe?", "I need recommendations for Hindi hip-hop music.", "Give me popular Hindi hip-hop song suggestions.", "Recommend me energetic Hindi songs with a hip-hop flavor."],
+ 
+  "responses": [
+    "You should check out 'Sher Aaya Sher' from the movie Gully Boy. [Listen](https://www.youtube.com/watch?v=Qvqa5O_znU8)",
+    "Try 'Bhaag Milkha Bhaag' from the movie Bhaag Milkha Bhaag. [Listen](https://www.youtube.com/watch?v=X_X9UEkFk1E)",
+    "Have you heard 'Apna Time Aayega' from the movie Gully Boy? [Listen](https://www.youtube.com/watch?v=JfbxcD6biOk)",
+    "Check out 'Jungli Sher' by Divine. [Listen](https://www.youtube.com/watch?v=Y69Pza0a7Ak)",
+    "Give 'All Black' by Raftaar ft. Sukhe a try. [Listen](https://www.youtube.com/watch?v=iijL7pgrz9U)",
+    "You might like 'Lakdi Ki Kaathi' from the movie Masoom. [Listen](https://www.youtube.com/watch?v=sj6-Mj0O8O4)",
+    "Listen to 'Kar Har Maidaan Fateh' from the movie Sanju. [Listen](https://www.youtube.com/watch?v=24KfdkS6XaA)",
+    "Check out 'Brown Rang' by Yo Yo Honey Singh. [Listen](https://www.youtube.com/watch?v=1QmPN5yGq8A)",
+    "Try 'Machayenge' by Emiway Bantai. [Listen](https://www.youtube.com/watch?v=9xZSwVVKx74)",
+    "Have you heard 'Don't Hold Back' by Ankur Tewari ft. Dino James? [Listen](https://www.youtube.com/watch?v=4sCko7dGoYU)"
+  ]
+},
+{"tag": "hip-hop",
+  "patterns": ["Suggest some English hip-hop songs.", "Which English songs have a hip-hop vibe?", "I need recommendations for English hip-hop music.", "Give me popular English hip-hop song suggestions.", "Recommend me energetic English songs with a hip-hop flavor."],
+  
+  "responses": [
+    "You should check out 'Lose Yourself' by Eminem. [Listen](https://www.youtube.com/watch?v=_Yhyp-_hX2s)",
+    "Try 'Juice' by Lizzo. [Listen](https://www.youtube.com/watch?v=XaCrQL_8eMY)",
+    "Have you heard 'SICKO MODE' by Travis Scott? [Listen](https://www.youtube.com/watch?v=6ONRf7h3Mdk)",
+    "Check out 'Black Skinhead' by Kanye West. [Listen](https://www.youtube.com/watch?v=6AhXSoKa8xw)",
+    "Give 'HUMBLE.' by Kendrick Lamar a try. [Listen](https://www.youtube.com/watch?v=tvTRZJ-4EyI)",
+    "You might like 'Goosebumps' by Travis Scott ft. Kendrick Lamar. [Listen](https://www.youtube.com/watch?v=DPxL7dO5XPc)",
+    "Listen to 'Mask Off' by Future. [Listen](https://www.youtube.com/watch?v=xvZqHgFz51I)",
+    "Check out 'Rockstar' by Post Malone ft. 21 Savage. [Listen](https://www.youtube.com/watch?v=UceaB4D0jpo)",
+    "Try 'God's Plan' by Drake. [Listen](https://www.youtube.com/watch?v=xpVfcZ0ZcFM)",
+    "Have you heard 'Savage' by Megan Thee Stallion? [Listen](https://www.youtube.com/watch?v=hsm4poTWjMs)"
+  ]
+},
+{"tag": "jazz",
+  "patterns": ["Suggest some jazz songs.", "Which songs have a jazz genre?", "I need recommendations for jazz music.", "Give me popular jazz song suggestions.", "Recommend me soothing jazz songs."],
+  
+  "responses": [
+    "You should check out 'Take Five' by Dave Brubeck. [Listen](https://www.youtube.com/watch?v=vmDDOFXSgAs)",
+    "Try 'Fly Me to the Moon' by Frank Sinatra. [Listen](https://www.youtube.com/watch?v=qtFBRJFN3p8)",
+    "Have you heard 'Summertime' by Ella Fitzgerald and Louis Armstrong? [Listen](https://www.youtube.com/watch?v=u2bigf337aU)",
+    "Check out 'So What' by Miles Davis. [Listen](https://www.youtube.com/watch?v=zqNTltOGh5c)",
+    "Give 'The Girl from Ipanema' by Stan Getz and João Gilberto a try. [Listen](https://www.youtube.com/watch?v=UJkxFhFRFDA)",
+    "You might like 'All Blues' by John Coltrane and Cannonball Adderley. [Listen](https://www.youtube.com/watch?v=-488UORrfJ0)",
+    "Listen to 'What a Wonderful World' by Louis Armstrong. [Listen](https://www.youtube.com/watch?v=CWzrABouyeE)",
+    "Check out 'Cantaloupe Island' by Herbie Hancock. [Listen](https://www.youtube.com/watch?v=ZLP2Ybnz4hY)",
+    "Try 'My Favorite Things' by John Coltrane. [Listen](https://www.youtube.com/watch?v=I_rEtsYe2lM)",
+    "Have you heard 'Autumn Leaves' by Chet Baker? [Listen](https://www.youtube.com/watch?v=3r2z_oJgiZw)"
+  ]
+}
+
+
+
+  
+    ]
+}
