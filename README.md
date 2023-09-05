@@ -4,7 +4,7 @@ This repository contains the documentation and code for a mini project assigned 
 
 ## Introduction
 
-In the ever-advancing realm of technology, there is an escalating demand for innovative solutions across various sectors, including health, finance, entertainment, and the music industry. In today's digital age, music streaming platforms have gained immense popularity, granting users access to an extensive collection of songs. Concurrently, chatbots, powered by Artificial Intelligence (AI), have emerged as vital applications designed to simulate human-like interactions and communication with users through voice-based or text-based interfaces. These chatbots utilize machine learning techniques and Natural Language Processing (NLP) algorithms to analyze and comprehend user queries, responses, and perform specified tasks. Chatbots find application in diverse fields, including healthcare, business, finance, education, entertainment, and more.
+In the ever-advancing realm of technology, there is an escalating demand for innovative solutions across various sectors, including health, finance, entertainment, and the music industry. In today's digital age, music streaming platforms have gained immense popularity, granting users access to an extensive collection of songs. Concurrently, chatbots, powered by Artificial Intelligence (AI), have emerged as vital applications designed to simulate human-like interactions and communication with users through voice-based or text-based interfaces. These chatbots utilize machine learning techniques and Natural Language Processing (NLP) algorithms to analyze and comprehend user queries, and responses, and perform specified tasks. Chatbots find applications in diverse fields, including healthcare, business, finance, education, entertainment, and more.
 
 ## Technologies Used
 
@@ -34,6 +34,10 @@ By harnessing machine learning techniques and conversational capabilities, the C
 
 
 ## Getting Started
+## To get started with this project, follow these steps:
 
-[Provide instructions on how to set up and run the project.]
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies using `pip install -r requirements.txt`.
+3. Run the Flask application using app.py
+
 
